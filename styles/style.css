@@ -51,7 +51,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     max-width: 1140px;
-    margin: 0px auto 158px;
+    margin: 0 auto 158px;
 }
 
 .signup-button {
@@ -74,4 +74,35 @@ header nav {
 
 .banner {
     padding-bottom: 152px;
+}
+
+/* Action section styles */
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: lightcyan; */
+    max-width: 1140px;
+    margin: 116px auto;
+}
+
+.action-title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.action-sub-title {
+    font-size: 24px;
+    color: #252432;
+    opacity: 0.5;
+}
+
+.live-button {
+    width: 229px;
+    height: 48px;
+}
+
+.action img {
+    border-radius: 48px;
 }

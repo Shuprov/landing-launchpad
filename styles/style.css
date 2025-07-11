@@ -40,6 +40,32 @@ body {
     text-align: center;
 }
 
+button:hover,
+form input[type="submit"]:hover {
+    color: black;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    background-color: yellow;
+}
+
+.feedback-title {
+    font-size: 24px;
+    color: #1E1E1E;
+}
+
+.feedback-details {
+    color: #1E1E1E;
+}
+
+.reviewer-name {
+    color: #757575;
+}
+
+.reviewer-date {
+    color: #B3B3B3;
+}
+
+
 /* header styles */
 header {
     background-image: url('../Assets/Hero-bg.png');
@@ -140,6 +166,47 @@ header nav {
     font-weight: 400;
     color: #000000;
     opacity: 0.5;
+}
+
+/* User feedback section */
+.feedback-section {
+    max-width: 1140px;
+    margin: 137px auto;
+}
+
+.reviewer-section {
+    display: flex;
+    align-items: center;
+}
+
+.reviewer-section img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.reviewer-description {
+    padding-left: 10px;
+}
+
+.users-feedback-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedback-section h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 50px;
+}
+
+.user-feedback {
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 24px 60px;
+    box-shadow: 2px 2px 20px #B3B3B3;
 }
 
 /* Get in Touch section */
